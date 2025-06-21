@@ -1,0 +1,116 @@
+/*class Default
+{
+int i;
+float f;
+double d;
+long l;
+char c;
+short s;
+byte b;
+boolean bo;
+String st;
+public static void main(String[] args)
+{
+Default a = new Default();
+System.out.println("int value:"+a.i);
+System.out.println("float value:"+a.f);
+System.out.println("double value:"+a.d);
+System.out.println("long value:"+a.l);
+System.out.println("char value:"+a.c);
+System.out.println("short value:"+a.s);
+System.out.println("byte value:"+a.b);
+System.out.println("boolean value:"+a.bo);
+System.out.println("string value:"+a.st);
+}
+}
+o/p:
+int value:0
+float value:0.0
+double value:0.0
+long value:0
+char value:
+short value:0
+byte value:0
+boolean value:false
+string value:null
+
+class Cse
+{
+void student()
+{
+System.out.println("name:Janu");
+System.out.println("class:CseA");
+}
+public static void main(String [] args)
+{
+Cse c=new Cse();
+c.student();
+}
+}
+o/p:
+name:Janu
+class:CseA
+
+class Name
+{
+public static void main(String [] args)
+{
+System.out.println("Bhargavi");
+}
+}
+o/p:
+Bhargavi
+
+class Variables
+{
+int a=10;//global variable
+
+public static void main(String [] args)
+{
+int a=5;
+Variables v=new Variables();
+System.out.println(v.a);
+System.out.println(a);
+}
+}
+o/p:
+10
+5
+
+
+class Name
+{ 
+void name()
+{
+System.out.println("Bhargavi");
+}
+public static void main(String [] args)
+{
+Name n=new Name();
+n.name();
+}
+}
+o/p:
+Bhargavi
+*/
+
+class Comments
+{
+public static void main(String [] args)
+{
+//Hello World
+/* welcome to
+SVIET*/
+/*
+*java 
+*programming
+*/
+System.out.println("Hello World");
+System.out.println("welcome to SVIET");
+System.out.println("java  programming");
+}
+}
+o/p:
+Hello World
+welcome to SVIET
+java  programming
